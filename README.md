@@ -2,7 +2,7 @@
 open-falcon plugin golang data struct, help to fast construct output data.
 
 ---
-#### Useage：
+#### Usage：
 * Data maintain all the output, contains an array of Entity. Providing AddEntity() to add a entity to the data and String() to get the output string.
 
 * Entity is the base data in open-falcon. Because the open-falcon need all the fields in the Entity so the NewEntity() and SetValueAndType() is necessary. other field like step or timestamp set by default.
